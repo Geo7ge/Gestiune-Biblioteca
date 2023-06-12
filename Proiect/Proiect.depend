@@ -1,0 +1,109 @@
+# depslib dependency file v1.0
+1682268885 source:d:\proiect poo\proiect\src\carte.cpp
+	"Carte.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1682268883 d:\proiect poo\proiect\include\carte.h
+	<iostream>
+	<fstream>
+	<string>
+
+1682340111 source:d:\proiect poo\proiect\main.cpp
+	"Carte.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1682755237 source:d:\proiect_poo\proiect\main.cpp
+	"Carte.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1682757255 d:\proiect_poo\proiect\include\carte.h
+	<iostream>
+	<fstream>
+	<string>
+
+1682757227 source:d:\proiect_poo\proiect\src\carte.cpp
+	"Carte.h"
+	<iostream>
+	<fstream>
+	<string>
+	<string.h>
+	<stdio.h>
+
+1686223563 source:d:\anul 2 semestrul 2\proiect_poo\proiect\src\carte.cpp
+	"Carte.h"
+	<iostream>
+	<fstream>
+	<string>
+	<string.h>
+	<stdio.h>
+	<windows.h>
+
+1686223563 d:\anul 2 semestrul 2\proiect_poo\proiect\include\carte.h
+	<iostream>
+	<fstream>
+	<string>
+
+1686223549 source:d:\anul 2 semestrul 2\proiect_poo\proiect\main.cpp
+	"Carte.h"
+	<iostream>
+	<fstream>
+	<string>
+	<string.h>
+	<stdio.h>
+	<cstdio>
+	<conio.h>
+
+1686319704 source:c:\users\user\desktop\proiect-andries george serban\proiect\main.cpp
+	"Carte.h"
+	<iostream>
+	<fstream>
+	<string>
+	<string.h>
+	<stdio.h>
+	<cstdio>
+	<conio.h>
+
+1686227163 c:\users\user\desktop\proiect-andries george serban\proiect\include\carte.h
+	<iostream>
+	<fstream>
+	<string>
+
+1686319672 source:c:\users\user\desktop\proiect-andries george serban\proiect\src\carte.cpp
+	"Carte.h"
+	<iostream>
+	<fstream>
+	<string>
+	<string.h>
+	<stdio.h>
+	<windows.h>
+
+1686500120 source:c:\users\serban\desktop\ddddddddddddddddddddddd\proiect-andries george serban\proiect\main.cpp
+	"Carte.h"
+	<iostream>
+	<fstream>
+	<string>
+	<string.h>
+	<stdio.h>
+	<cstdio>
+	<conio.h>
+
+1686495187 c:\users\serban\desktop\ddddddddddddddddddddddd\proiect-andries george serban\proiect\include\carte.h
+	<iostream>
+	<fstream>
+	<string>
+
+1686495195 source:c:\users\serban\desktop\ddddddddddddddddddddddd\proiect-andries george serban\proiect\src\carte.cpp
+	"Carte.h"
+	<iostream>
+	<fstream>
+	<string>
+	<string.h>
+	<stdio.h>
+	<windows.h>
+

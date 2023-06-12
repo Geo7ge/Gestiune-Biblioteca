@@ -1,0 +1,11 @@
+0;Misterul crimei fara cadavru;Agatha Christie;2022;Litera;288;Roman politist;Imediat ce Gwenda se muta in noua ei locuinta incep sa se petreaca lucruri ciudate;
+1;Misterul de la Blackwood;Lois Duncan;2019;Leda Edge;192;Roman politist;Cand Kit Gordy zarestte maiestosul conac de la Blackwood dincolo de portile negre de fier nu se poate abtine sa nu se gandeasca"Locul asta e .... malefic"!;
+2;Cum sa pictezi un mort;Sarah Hall;2011;Litera;304;Roman politist;In Italia anilor '60, Signor Giorgio, un pictor de naturi moarte, traieste obsedat de redarea pe panza a relatiilor de lunimi si umbre dintre obiecte.;
+3;Ultima geana de lumina;Kristin Harmel;2021;Litera;368;Roman de Dragoste;Ines tocmai a devenit sotia lui Michel, proprietarul legendarei case producatoare de sampanie numite Maison Chauveau, cand germanii invadeaza Franta.;
+4;Padurea stelelor ce pier;Kristin Harmel;2022;Litera;400;Roman de dragoste;O poveste impresionanta despre o tanara ce isi foloseste cunostiintele legate de viata in salbaticie pentru a ajuta refugiatii evrei sa scape de nazisti.;
+5;Cartea inelelor;Andrei Ruse;2023;Hyperliteratura;408;Fantezie;Aleodor va trebui sa trezeasca spiritele celor morti din inchipuirea ca-s vii.;
+6;Cartea Blestemelor;Andrei Ruse;2022;Hyperliteratura;384;Fantezie;Intr-o noapte friguroasa, sapte oraseni se intorc la palat, aducand cu ei un strain misterios, de pe un taram necunoscut, care stie de ce fiul imparatului oamenilor nu se trezeste la viata.;
+7;Totul despre creier;Gabriel Tudor;2022;Litera;224;Enciclopedie;Cel mai simplu si cel mai ilustrat ghid despre CREIER.;
+8;Inainte de sfarsit e intotdeauna prea devreme;Matei Calinescu;2023;Humanitas;172;Poezie;-;
+9;Copiii lui Hurin;J.R.R Tolkien;2013;RAO;288;Aventura;Cartea prezinta lumea dinaintea Fratiei Inelului, pe un taram mult indepartat.;
+10;Insula misterioasa;Jules Verne;2016;Andreas;176;Aventura;In 1865, in timpul razboiului de secesiune, cinci oameni au plecat imbracati intr-un balon, din Richmond, caputala Virginiei, care era atunci asediata de sudisti.;
