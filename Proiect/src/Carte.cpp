@@ -4,8 +4,6 @@
 #include <string>
 #include <string.h>
 #include <stdio.h>
-#include <windows.h>
-
 
 using namespace std;
 Carte::Carte()

@@ -5,7 +5,6 @@
 #include <string.h>
 #include <stdio.h>
 #include <cstdio>
-#include <conio.h>
 
 
 using namespace std;
