@@ -83,7 +83,7 @@
 	<stdio.h>
 	<windows.h>
 
-1686500120 source:c:\users\serban\desktop\ddddddddddddddddddddddd\proiect-andries george serban\proiect\main.cpp
+1686652963 source:c:\users\serban\desktop\ddddddddddddddddddddddd\proiect-andries george serban\proiect\main.cpp
 	"Carte.h"
 	<iostream>
 	<fstream>
@@ -93,12 +93,12 @@
 	<cstdio>
 	<conio.h>
 
-1686495187 c:\users\serban\desktop\ddddddddddddddddddddddd\proiect-andries george serban\proiect\include\carte.h
+1686651355 c:\users\serban\desktop\ddddddddddddddddddddddd\proiect-andries george serban\proiect\include\carte.h
 	<iostream>
 	<fstream>
 	<string>
 
-1686495195 source:c:\users\serban\desktop\ddddddddddddddddddddddd\proiect-andries george serban\proiect\src\carte.cpp
+1686651401 source:c:\users\serban\desktop\ddddddddddddddddddddddd\proiect-andries george serban\proiect\src\carte.cpp
 	"Carte.h"
 	<iostream>
 	<fstream>

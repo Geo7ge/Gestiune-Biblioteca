@@ -131,3 +131,13 @@ int Carte::GetNrPagini()
 {
     return nrPagini;
 }
+
+string Carte::GetTitlu()
+{
+    return Titlu;
+}
+
+string Carte::GetAutor()
+{
+    return Autor;
+}

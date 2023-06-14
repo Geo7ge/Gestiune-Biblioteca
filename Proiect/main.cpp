@@ -70,6 +70,68 @@ void SortareDupaPagini(Carte Carti[]){
     }
 }
 
+void SortareDupaAutor(Carte Carti[]){
+    int sortare[NrCarti];
+    for (int i = 0; i < NrCarti; i++)
+    {
+        sortare[i] = i;
+    }
+    bool s;
+    string autor1;
+    string autor2;
+    for (int i = 0; i < NrCarti - 1; i++)
+    {
+        s = false;
+        for (int j = 0; j < NrCarti - i - 1; j++)
+        {
+            autor1 = Carti[sortare[j]].GetAutor();
+            autor2 = Carti[sortare[j+1]].GetAutor();
+            if (autor1[0] > autor2[0])
+            {
+                swap(sortare[j], sortare[j+1]);
+                s = true;
+            }
+        }
+        if (!s)
+            break;
+    }
+    for (int i = 0; i < NrCarti; i++)
+    {
+        Carti[sortare[i]].AfisareCarte();
+    }
+}
+
+void SortareDupaTitlu(Carte Carti[]){
+    int sortare[NrCarti];
+    for (int i = 0; i < NrCarti; i++)
+    {
+        sortare[i] = i;
+    }
+    bool s;
+    string titlu1;
+    string titlu2;
+    for (int i = 0; i < NrCarti - 1; i++)
+    {
+        s = false;
+        for (int j = 0; j < NrCarti - i - 1; j++)
+        {
+            titlu1 = Carti[sortare[j]].GetTitlu();
+            titlu2 = Carti[sortare[j+1]].GetTitlu();
+            if (titlu1[0] > titlu2[0])
+            {
+                swap(sortare[j], sortare[j+1]);
+                s = true;
+            }
+        }
+        if (!s)
+            break;
+    }
+    for (int i = 0; i < NrCarti; i++)
+    {
+        Carti[sortare[i]].AfisareCarte();
+    }
+}
+
 fstream StergeCarte(Carte Carti[], fstream &file)
 {
     fstream tempFile("Carti.tmp",  ios::out);
@@ -123,6 +185,8 @@ int main()
         cout << "A - Afisare carti din fisier." << endl;
         cout << "B - Afisare carti dupa anul de publicatie in ordine crescatoare." << endl;
         cout << "D - Afisare carti dupa numarul de pagini in ordine crescatoare." << endl;
+        cout << "E - Afisare carti dupa autor in ordine alfabetica." << endl;
+        cout << "F - Afisare carti dupa titlu in ordine alfabetica." << endl;
         cout << "S - Stergere carte din fisier." << endl;
         cout << "M - Salvare carte in fisier." << endl;
         cout << "X - Oprire program." << endl;
@@ -164,11 +228,19 @@ int main()
             SortareDupaPagini(Carti);
 
             break;
+        case 'E':
+            SortareDupaAutor(Carti);
+
+            break;
+        case 'F':
+            SortareDupaTitlu(Carti);
+
+            break;
         case 'S':
                 file = StergeCarte(Carti, file);
                 NrCarti--;
                 id--;
-
+                cout << "***CARTEA A FOST STEARSA CU SUCCES***" << endl;
 
             break;
         case 'M':
@@ -192,7 +264,6 @@ int main()
     }while(toupper(optiune) != 'X');
     file.close();
 
-
 }
 
 /*
@@ -205,4 +276,5 @@ int main()
 7;Cartea Blestemelor;Andrei Ruse;2022;Hyperliteratura;384;Fantezie;Intr-o noapte friguroasa, sapte oraseni se intorc la palat, aducand cu ei un strain misterios, de pe un taram necunoscut, care stie de ce fiul imparatului oamenilor nu se trezeste la viata.;
 8;Totul despre creier;Gabriel Tudor;2022;Litera;224;Enciclopedie;Cel mai simplu si cel mai ilustrat ghid despre CREIER.;
 9;Inainte de sfarsit e intotdeauna prea devreme;Matei Calinescu;2023;Humanitas;172;Poezie;-;
+10;Insula misterioasa;Jules Verne;2016;Andreas;176;Aventura;In 1865, in timpul razboiului de secesiune, cinci oameni au plecat imbracati intr-un balon, din Richmond, caputala Virginiei, care era atunci asediata de sudisti.;
 */

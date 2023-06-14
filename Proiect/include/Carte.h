@@ -17,6 +17,8 @@ class Carte
         void SalvareCartiFisier(fstream& file, int id);
         int GetAnPublicatie();
         int GetNrPagini();
+        string GetAutor();
+        string GetTitlu();
         void AfisareCarte();
 
     protected:
